@@ -16,7 +16,7 @@ public class MortgageCalculator{
         double rate = (annualInterestRate / 100)/ 12;
         int duration = years * 12;
 
-        double mortgage = 100000 * (5 * Math.pow(1 + 5, 180)) / (Math.pow(1 + 5, 180 - 1));
+        double mortgage = 100000 * (0.005 * Math.pow(1 + 0.005, 180)) / (Math.pow(1 + 0.005, 180 - 1));
 
         System.out.printf("Your monthly payment is: %.2f\n", mortgage);
 

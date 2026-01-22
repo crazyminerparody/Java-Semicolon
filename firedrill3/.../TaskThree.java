@@ -1,0 +1,16 @@
+import java.util.Scanner;
+import java.util.Arrays;
+public class TaskThree{
+public static void main(String[] args){
+    Scanner  = new Scanner(System.in);
+
+    int[] number = new int[10];
+
+    for(int index = 1; index < number.length(); index++){
+    
+}
+    System.out.println("Enter number\n:" + (index));
+    number[index] = inputCollector.nextInt();
+
+}
+}

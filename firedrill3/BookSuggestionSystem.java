@@ -88,6 +88,7 @@ public class BookSuggestionSystem {
             } else if (number == 6) {
 
                 System.out.println("Thank you for using the Book Suggestion System!");
+                inputCollector.close();
                 break;
 
             } else {
